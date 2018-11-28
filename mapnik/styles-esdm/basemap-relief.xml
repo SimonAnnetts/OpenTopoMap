@@ -21,7 +21,7 @@
 		<RasterSymbolizer opacity="0.9" scaling="bilinear" />
 	</Rule>
 </Style>
-<Layer name="relief-5000">
+<Layer name="relief-5000" srs="&srs900913;">
 	<StyleName>relief-5000</StyleName>
 	<Datasource>
 		<Parameter name="type">gdal</Parameter>
@@ -37,7 +37,7 @@
 		<RasterSymbolizer opacity="0.9" scaling="bilinear" />
 	</Rule>
 </Style>
-<Layer name="relief-500">
+<Layer name="relief-500" srs="&srs900913;">
 	<StyleName>relief-500</StyleName>
 	<Datasource>
 		<Parameter name="type">gdal</Parameter>

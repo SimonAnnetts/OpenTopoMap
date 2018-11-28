@@ -278,8 +278,14 @@
 	<Rule>
 		&maxscale_zoom15;
 		&minscale_zoom15;
-		<Filter>[highway] = 'residential' or [highway] = 'unclassified' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian'</Filter>
+		<Filter>[highway] = 'unclassified'</Filter>
 		<LineSymbolizer stroke="&color_roads_unclassified;" stroke-width="3" stroke-linecap="round"/>
+	</Rule>
+	<Rule>
+		&maxscale_zoom15;
+		&minscale_zoom15;
+		<Filter>[highway] = 'residential' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian'</Filter>
+		<LineSymbolizer stroke="&color_roads_other;" stroke-width="2.5" stroke-linecap="round"/>
 	</Rule>
 	<Rule>
 		&maxscale_zoom15;
@@ -347,14 +353,20 @@
 	<Rule>
 		&maxscale_zoom16;
 		&minscale_zoom16;
-		<Filter>[highway] = 'residential' or [highway] = 'unclassified' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian'</Filter>
-		<LineSymbolizer stroke="&color_roads_unclassified;" stroke-width="6" stroke-linecap="round" />
+		<Filter>[highway] = 'unclassified'</Filter>
+		<LineSymbolizer stroke="&color_roads_unclassified;" stroke-width="4" stroke-linecap="round" />
+	</Rule>
+	<Rule>
+		&maxscale_zoom16;
+		&minscale_zoom16;
+		<Filter>[highway] = 'residential' or [highway] = 'road' or [highway] = 'living_street' or [highway] = 'pedestrian'</Filter>
+		<LineSymbolizer stroke="&color_roads_other;" stroke-width="3.5" stroke-linecap="round" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
 		&minscale_zoom16;
 		<Filter>[highway] = 'service' and [service] = null</Filter>
-		<LineSymbolizer stroke="&color_roads_other;" stroke-width="4" stroke-linecap="round" />
+		<LineSymbolizer stroke="&color_roads_other;" stroke-width="3" stroke-linecap="round" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom16;
@@ -421,8 +433,14 @@
 	<Rule>
 		&maxscale_zoom17;
 		&minscale_zoom17;
-		<Filter>[highway] = 'residential' or [highway] = 'unclassified' or [highway] = 'road'</Filter>
+		<Filter>[highway] = 'unclassified'</Filter>
 		<LineSymbolizer stroke="&color_roads_unclassified;" stroke-width="6" stroke-linecap="round" />
+	</Rule>
+	<Rule>
+		&maxscale_zoom17;
+		&minscale_zoom17;
+		<Filter>[highway] = 'residential' or [highway] = 'road'</Filter>
+		<LineSymbolizer stroke="&color_roads_other;" stroke-width="6" stroke-linecap="round" />
 	</Rule>
 	<Rule>
 		&maxscale_zoom17;
