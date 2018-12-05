@@ -12,3 +12,5 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 
+endtime=$(date +%s)
+echo "Done in $[${endtime}-${starttime}] seconds! All your Maps Belong to Us!"
