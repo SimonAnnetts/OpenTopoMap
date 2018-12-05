@@ -192,7 +192,7 @@
 	&hillshade;
 	-->
 	
-	<Layer name="landuse-over-hillshade">
+	<Layer name="landuse-over-hillshade" srs="&srs900913;">
 		<StyleName>landuse-over-hillshade</StyleName>
 		<Datasource>
 			<Parameter name="table">(SELECT way,landuse,"natural",leaf_type,amenity,building,power FROM planet_osm_polygon) AS landuse </Parameter>
