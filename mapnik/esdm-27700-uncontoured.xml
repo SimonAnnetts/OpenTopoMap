@@ -64,7 +64,7 @@
 	<!ENTITY text-cities SYSTEM "styles-otm/text-cities.xml">
 	<!ENTITY text-towns SYSTEM "styles-otm/text-towns.xml">
 	<!ENTITY text-villages SYSTEM "styles-otm/text-villages.xml">
-     <!ENTITY symbols-sport SYSTEM "styles-esdm/symbols-sport.xml">
+    <!ENTITY symbols-sport SYSTEM "styles-esdm/symbols-sport.xml">
 	<!ENTITY symbols-stations SYSTEM "styles-otm/symbols-stations.xml">
     <!ENTITY text-water-lowzoom SYSTEM "styles-otm/text-water-lowzoom.xml">
 	<!ENTITY text-glacier-lowzoom SYSTEM "styles-otm/text-glacier-lowzoom.xml">
@@ -190,6 +190,7 @@
 	
 	<!--
 	&hillshade;
+	-->
 	
 	<Layer name="landuse-over-hillshade">
 		<StyleName>landuse-over-hillshade</StyleName>
@@ -199,7 +200,6 @@
 			&postgis-settings;
 		</Datasource>
 	</Layer>
-	-->
 	
 	&basemap-sea;
 	
